@@ -15,6 +15,7 @@ use dropbox;
 -- | LastModifiedTimeStamp | timestamp     | NO   |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED on update CURRENT_TIMESTAMP |
 -- | isDeleted             | varchar(1)    | YES  |     | F                 |                                               |
 -- +-----------------------+---------------+------+-----+-------------------+-----------------------------------------------+
+
 create table FileMetaData(
 	id int NOT NULL AUTO_INCREMENT,  
 	fileID varchar(32) NOT NULL,
@@ -22,5 +23,6 @@ create table FileMetaData(
 	fileSize decimal(15,5),
 	createdTimeStamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 	LastModifiedTimeStamp TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	isDeleted varchar(1) DEFAULT "F",
 	PRIMARY KEY (id)  
 );
