@@ -1,0 +1,5 @@
+Recommended steps to Run the Project to the local setup.
+1 - Import the repo in Eclipse.
+2 - Add Tomcat server (Recommended Version: 9.0.71)
+3 - Create an appropriate database and table in MySQL using dropbox.sql file.
+4 - Build and deploy the project
