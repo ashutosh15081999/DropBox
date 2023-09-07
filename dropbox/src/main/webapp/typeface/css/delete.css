@@ -1,0 +1,85 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+}
+
+.container {
+	max-width: 800px;
+	margin: 20px auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+	color: #f4f4f4;
+}
+
+p {
+	color: #555;
+}
+
+.text-box{
+	width: 60%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+.text-box:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle shadow on focus */
+    outline: none; /* Remove default focus outline */
+}
+
+button {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #e37c0d;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 20px;
+	/* Adjust spacing between links */
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #9f9c98;
+	/* Link text color */
+	font-weight: bold;
+	/* Make the links bold */
+	transition: color 0.3s;
+	/* Smooth color transition on hover */
+}
+
+nav ul li a:hover {
+	color: #e37c0d;
+	/* Change color on hover */
+}

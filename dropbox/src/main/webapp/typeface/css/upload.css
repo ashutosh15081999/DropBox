@@ -1,0 +1,119 @@
+/* Reset default form styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Center content vertically and horizontally */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+.container h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.input-file {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Custom button styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.submit-btn {
+    margin-top: 10px;
+    background-color: #4caf50;
+}
+
+.submit-btn:hover {
+    background-color: #45a049;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 20px;
+	/* Adjust spacing between links */
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #9f9c98;
+	/* Link text color */
+	font-weight: bold;
+	/* Make the links bold */
+	transition: color 0.3s;
+	/* Smooth color transition on hover */
+}
+
+nav ul li a:hover {
+	color: #e37c0d;
+	/* Change color on hover */
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+}
+
+th,
+td {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+.key {
+	font-weight: bold;
+}
