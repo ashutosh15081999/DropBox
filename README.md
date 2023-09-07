@@ -1,5 +1,7 @@
 # DropBox
 FullStack DropBox Project.
+### Note
+#### To configure the project on your local machine, please refer to the requirements.txt file.
 
 ## Upload File 
 Upload the File of choice from Interactive UI.
